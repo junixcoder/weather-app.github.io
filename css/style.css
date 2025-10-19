@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url("https://github.com/junixcoder/weather-app.github.io.git/assets/bgimage2.jpg") no-repeat center center / cover;
+  background: url("assets/bgimage2.jpg") no-repeat center center / cover;
   text-align: center;
   padding: 50px;
 }
@@ -46,5 +46,6 @@ body {
 .weather-result h2 {
   margin: 10px 0;
 }
+
 
 
