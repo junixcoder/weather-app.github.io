@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("/Sample%20Weather%20App/assets/bgimage2.jpg") no-repeat center center / cover;
+  text-align: center;
+  padding: 50px;
+}
+
+.weather-app {
+  max-width: 400px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.search-box,
+.dropdown-box {
+  margin-bottom: 20px;
+}
+
+.search-box input,
+.dropdown-box select {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #0078ff;
+  color: white;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #005fcc;
+}
+
+.weather-result img {
+  width: 80px;
+}
+
+.weather-result h2 {
+  margin: 10px 0;
+}
